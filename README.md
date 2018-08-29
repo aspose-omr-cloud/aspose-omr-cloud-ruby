@@ -24,27 +24,27 @@ Ruby 2.3 and later
 To build the Ruby code into a gem:
 
 ```shell
-gem build asposeomrcloud.gemspec
+gem build aspose_omr_cloud.gemspec
 ```
 
 Then either install the gem locally:
 
 ```shell
-gem install ./asposeomrcloud-1.0.0.gem
+gem install ./aspose_omr_cloud-1.0.0.gem
 ```
-(for development, run `gem install --dev ./asposeomrcloud-1.0.0.gem` to install the development dependencies)
+(for development, run `gem install --dev ./aspose_omr_cloud-1.0.0.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'asposeomrcloud', '~> 1.0.0'
+    gem 'aspose_omr_cloud', '~> 1.0.0'
 
 ### Install from Git
 
 If the Ruby gem is hosted at a git repository: https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby, then add the following in the Gemfile:
 
-    gem 'asposeomrcloud', :git => 'https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby.git'
+    gem 'aspose_omr_cloud', :git => 'https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby.git'
 
 ### Include the Ruby code directly
 
