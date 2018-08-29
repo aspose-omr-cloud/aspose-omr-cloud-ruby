@@ -1,4 +1,4 @@
-require 'asposeomrcloud'
+require 'aspose_omr_cloud'
 require 'aspose_storage_cloud'
 require 'uri'
 require 'fileutils'

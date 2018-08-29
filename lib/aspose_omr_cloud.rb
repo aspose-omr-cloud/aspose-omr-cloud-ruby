@@ -26,25 +26,25 @@ Swagger Codegen version: 3.0.0-SNAPSHOT
 =end
 
 # Common files
-require 'asposeomrcloud/api_client'
-require 'asposeomrcloud/api_error'
-require 'asposeomrcloud/version'
-require 'asposeomrcloud/configuration'
+require 'aspose_omr_cloud/api_client'
+require 'aspose_omr_cloud/api_error'
+require 'aspose_omr_cloud/version'
+require 'aspose_omr_cloud/configuration'
 
 # Models
-require 'asposeomrcloud/models/aspose_response'
-require 'asposeomrcloud/models/file_info'
-require 'asposeomrcloud/models/omr_function_param'
-require 'asposeomrcloud/models/omr_response_details'
-require 'asposeomrcloud/models/omr_response_content'
-require 'asposeomrcloud/models/omr_response_info'
-require 'asposeomrcloud/models/payload'
-require 'asposeomrcloud/models/recognition_statistics'
-require 'asposeomrcloud/models/server_stat'
-require 'asposeomrcloud/models/omr_response'
+require 'aspose_omr_cloud/models/aspose_response'
+require 'aspose_omr_cloud/models/file_info'
+require 'aspose_omr_cloud/models/omr_function_param'
+require 'aspose_omr_cloud/models/omr_response_details'
+require 'aspose_omr_cloud/models/omr_response_content'
+require 'aspose_omr_cloud/models/omr_response_info'
+require 'aspose_omr_cloud/models/payload'
+require 'aspose_omr_cloud/models/recognition_statistics'
+require 'aspose_omr_cloud/models/server_stat'
+require 'aspose_omr_cloud/models/omr_response'
 
 # APIs
-require 'asposeomrcloud/api/omr_api'
+require 'aspose_omr_cloud/api/omr_api'
 
 module AsposeOmrCloud
   class << self

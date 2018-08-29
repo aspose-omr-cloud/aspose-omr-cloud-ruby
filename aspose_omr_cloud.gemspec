@@ -28,16 +28,16 @@ Swagger Codegen version: 3.0.0-SNAPSHOT
 =end
 
 $:.push File.expand_path("../lib", __FILE__)
-require "asposeomrcloud/version"
+require "aspose_omr_cloud/version"
 
 Gem::Specification.new do |s|
-  s.name        = "asposeomrcloud"
+  s.name        = "aspose_omr_cloud"
   s.version     = AsposeOmrCloud::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Aspose OMR Developer"]
+  s.authors     = ["Aspose OMR"]
   s.email       = ["aspose-omr-cloud@aspose.com"]
-  s.homepage    = "https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby"
-  s.summary     = "A ruby wrapper for Aspose.OMR for Cloud"
+  s.homepage    = "https://products.aspose.cloud/omr/cloud"
+  s.summary     = "Ruby library for communicating with the Aspose.OMR Cloud API"
   s.description = "Aspose.OMR for Cloud is a REST API that helps you to perform optical mark recognition in the cloud"
   s.license     = "MIT"
   s.required_ruby_version = ">= 2.3"
@@ -54,7 +54,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'autotest-growl', '~> 0.2', '>= 0.2.16'
   s.add_development_dependency 'autotest-fsevent', '~> 0.2', '>= 0.2.12'
 
-  s.files         = Dir['lib/**/*.rb']
+  s.files         = Dir['lib/**/*.rb', 'LICENSE', 'README.MD', 'docs/**']
   s.executables   = []
   s.require_paths = ["lib"]
 end

@@ -26,5 +26,5 @@ Swagger Codegen version: 3.0.0-SNAPSHOT
 =end
 
 module AsposeOmrCloud
-  VERSION = "1.0.0"
+  VERSION = "18.8.0"
 end
