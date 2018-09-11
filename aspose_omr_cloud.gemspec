@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Aspose OMR"]
   s.email       = ["aspose-omr-cloud@aspose.com"]
-  s.homepage    = "https://products.aspose.cloud/omr/cloud"
+  s.homepage    = "https://products.aspose.cloud/omr/ruby"
   s.summary     = "Ruby library for communicating with the Aspose.OMR Cloud API"
   s.description = "Aspose.OMR for Cloud is a REST API that helps you to perform optical mark recognition in the cloud"
   s.license     = "MIT"
